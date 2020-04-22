@@ -8,7 +8,7 @@ WORKDIR /app
 
 RUN pip install --editable .
 
-RUN flask init_db
+RUN flask init-db
 
 # Unit tests
 # python setup.py test
